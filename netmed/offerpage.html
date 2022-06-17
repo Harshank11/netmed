@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        #Navbar{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    background-color: teal;
+ 
+}
+
+#Navbar>div {
+    /* background-color: teal; */
+    color: white;
+    display: flex;
+    margin: auto;
+    /* align-content: space-around; */
+}
+
+#Navbar>div:nth-child(2){
+    width: 40%;
+    background-color: white;
+    color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+border-radius: 10px;
+}
+
+input:last-child{
+    width: 75%;
+    border: none;
+}
+div>p{
+    width: 15%;
+}
+p+input{
+    border: none;
+    color: rgb(9, 166, 166);
+    width: 10%;
+}
+#Navbar>div>button{
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    background-color: teal;
+}
+
+#b{
+    background-color: teal;
+    height: 55px;
+}
+#nav>div{
+    cursor: pointer;
+   
+}
+
+#c{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: space-around;
+    display: flex;
+}
+
+#c>button{
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+    }
+
+    #e>div:first-child{
+       width: 65%;
+       margin: auto;margin-top: 10px;
+    }
+    #e>div>img{
+        margin-top: 20px;
+        width: 100%;
+
+    }
+    #ea{
+        display: flex;
+        justify-content: space-between;
+        /* border: 2px solid red; */
+        width: 65%;
+        height: auto;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        border-radius: 10px;
+        padding: 3px;
+    }
+    #ea>div{
+        /* border: 2px solid green; */
+        width: 70%;
+        margin-left: 20px;
+
+    }
+    #ea>div:last-child{
+        /* border: 2px solid blue; */
+        width: 25%;
+        font-size:20px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+
+        font-size: 25px;
+        border: none;
+    }
+    button{
+        color: teal;
+        font-weight: bold;
+        background-color: rgb(182, 227, 240);
+        padding: 5px 10px;
+        border: none;
+    }
+    #f{
+        width: 64%;
+        margin: auto;
+        margin-top: 20px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+padding: 10px;
+border-radius: 20px;
+    }
+    #f>p{
+        width: 100%;
+    }
+
+    
+.in p,
+.list {
+font-size: 14px;
+font-family: 'Lato', sans-serif;
+color: #727a7e;
+/* margin: 0px 0px 8px; */
+line-height: 1.3rem;
+width: 100%;
+margin: auto;
+}
+
+
+#foot{
+    width: 100%;
+    background-color: white;
+}
+.net{
+    display: flex;
+    padding: 80px 85px ;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    margin: 10px;
+    margin-top: -10px;
+}
+.net>div>p{
+    font-family: 'Lato',sans-serif;
+    font-size: 16px; 
+    text-align: left;
+    line-height: 30px;
+    color: #8593b5;
+    font-weight: 500;
+    /* border: 2px solid; */
+    width: 80%;
+}
+
+.net>div{
+    margin-left: 20px;
+    /* border: 2px solid; */
+}
+.about-company{
+    display: flex;
+    gap: 25px;
+    padding-top: 35px;
+    padding-left: 10px;
+    font-family: 'Lato',sans-serif;
+    font-size: 15px;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+.about-company li:nth-child(1){
+    font-weight: 600;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+.subscribe-class{
+    padding-top: 55px;
+    padding-left: 100px;
+    font-family: 'Lato',sans-serif;
+    font-size: 16px;
+    width: 20%;
+    margin-left: 200px;
+}
+.subscribe-class p:nth-child(1){
+    font-weight: 600;
+}
+#email{
+    border: none;
+    border-bottom: 1px solid rgba(11,18,25,.2);
+    font-size: 16px;
+    font-family: 'Lato',sans-serif;
+    text-decoration: none;
+    margin-top: 30px;
+}
+#button{
+    border: none;
+    font-size: 15px;
+    background-color: #84be52;
+    border-radius: 5px;
+}
+.play-store{
+    width: 130px;
+    margin-top: 20px;  
+    margin-right: 10px; 
+}
+.foot-bottom{
+    display: flex;
+    font-family: 'Lato',sans-serif;
+    font-size: 16px;
+    justify-content: space-between;
+    color: #85889b;
+    padding: 0px 40px;
+    font-weight: 500;
+}
+.foot-bottom p:nth-child(1){
+    cursor: pointer;
+}
+.foot-bottom p:nth-child(2){
+    cursor: pointer;
+}
+.foot-bottom p:nth-child(3){
+    cursor: pointer;
+}
+.foot-bottom p:nth-child(4){
+    cursor: pointer;
+}
+
+
+</style>
+<body>
+        <div id="Navbar">
+            <div> 
+                <a href="homepage.html"><img id="hey" src="https://www.netmeds.com/assets/gloryweb/images/netmeds-footer-logo.svg" alt="sf">
+                </a>
+            </div>
+            <div>
+                    <p>Deliver to</p>
+                    <input type="number"  style="font-size: 15px;" placeholder="110002">
+                    |
+                    <input type="text" style="font-size: 15px;" placeholder="Search for Medicine & wellness">
+            </div>
+            <div>
+                <button>Upload</button>
+            </div>
+            <div>
+                <button>Cart</button>
+            </div>
+            <div>
+                <button>Harshank Patel </button>
+      
+            </div>
+            
+        </div>
+        <div id="b">
+                <div id="nav">
+                    <div>
+                    <img src="https://www.netmeds.com/assets/version1648145916/gloryweb/images/icons/medicine.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://www.netmeds.com/assets/gloryweb/images/icons/wellness.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://www.netmeds.com/assets/gloryweb/images/icons/diagnostics.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://www.netmeds.com/assets/gloryweb/images/icons/beauty.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://www.netmeds.com/assets/version1648145916/gloryweb/images/icons/health-library.svg" alt="">
+                    </div>
+                </div>
+        </div>
+        <div id="c">
+            <button>COVID Essential</button>
+            <button>Diabetes</button>
+            <button>Eyewear</button>
+            <button>Ayush</button>
+            <button>Ayurvedic</button>
+            <button>Homeopathy</button>
+            <button>Fitness</button>
+            <button>Mom & Baby</button>
+            <button>Devices</button>
+            <button>Sexual Wellness</button>
+        </div>
+        <div id="e">
+            <div>     
+                 <img src="https://www.netmeds.com/images/cms/offers/1654063080_nms1.jpg" alt="">
+            </div>
+            <div id="ea">
+                <div>
+                    <input type="text" value="NMS1" id="myInput">
+                    <p style="color:grey;">Coupon Code</p>
+                </div>
+                <div>
+                    <button onclick="myFunction()">COPY CODE</button>
+                </div>
+            </div>
+        </div>
+        <div id="f">
+                <h3>FLAT 25% OFF on Your First Meds* Order + 100% NMS</h3>
+                  <p>From 01st to 30th June 2022, get Flat 25% OFF* (max disc: Rs 5000) on Your First Pre-Paid/COD Medicine order, AND upon delivery, a 100% NMS SuperCash* (max cashback: Rs. 3000) on ‘pre-paid’ medicine order. *Minimum order of medicines (along with ANY other products) required: Rs. 500. *T&C apply.</p>       
+                 <h4>ELIGIBILITY</h4>
+                <p>The Coupon code NMS1 is valid only for NEW customers on the first medicine order. Code cannot be combined with selected evoucher codes. Note: To qualify for 100% NMS SuperCash, your medicine order (pre-paid) MUST be worth a min. of Rs 500 or more AFTER application of the NMS1 coupon disc.</p>
+                <h4>HOW DO YOU GET IT?</h4>
+                <p>Use code NMS1 at the shopping cart page & get FLAT 25% OFF on medicines immediately. Upon the delivery of your pre-paid medicine order, 100% NMS SuperCash (max. Rs. 3000) will be credited to your NMS wallet (cashback validity: 45 days from the issue date).</p>
+               <h4> CONDITIONS IN CASE OF CANCELLATION</h4>
+               <p>If your order is cancelled, this offer will become null and void.</p>       
+        </div>
+
+        <div class="net">
+            <div>
+                <img src="https://www.netmeds.com/assets/gloryweb/images/netmeds-footer-logo.svg" alt="">
+            </div>
+            <div>
+                <p>Netmeds.com, India Ki Pharmacy, is brought to you by the Dadha Company - one of
+                    India's most trusted pharmacies,
+                    with over 100 years' experience in dispensing quality medicines.</p>
+            </div>
+        </div>
+
+        <div id="foot">
+            
+            <hr style="width: 100%; ">
+            <div style="display: flex;">
+                <div class="about-company">
+                    <ul>
+                        <li>
+                            <p> COMPANY</p>
+                        </li>
+                        <li>
+                            <p>About Netmeds</p>
+                        </li>
+                        <li>
+                            <p>Customers Speak</p>
+                        </li>
+                        <li>
+                            <p>In the News</p>
+                        </li>
+                        <li>
+                            <p>Career</p>
+                        </li>
+                        <li>
+                            <p>Terms and Conditions</p>
+                        </li>
+                        <li>
+                            <p>Privacy Policy</p>
+                        </li>
+                        <li>
+                            <p>Fees and Payments Policy</p>
+                        </li>
+                        <li>
+                            <p>Shipping and Delivery Policy</p>
+                        </li>
+                        <li>
+                            <p>Return, Refund and Cancellation Policy</p>
+                        </li>
+                        <li>
+                            <p>Contact</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>SHOPPING</p>
+                        </li>
+                        <li>
+                            <p>Browse by A-Z</p>
+                        </li>
+                        <li>
+                            <p>Browse by Manufacturers</p>
+                        </li>
+                        <li>
+                            <p>Health Articles</p>
+                        </li>
+                        <li>
+                            <p>Offers / Coupons</p>
+                        </li>
+                        <li>
+                            <p>FAQs</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p> SOCIAL</p>
+                        </li>
+                        <li>
+                            <p>Patients Alike</p>
+                        </li>
+                        <li>
+                            <p>Facebook</p>
+                        </li>
+                        <li>
+                            <p>Twitter</p>
+                        </li>
+                        <li>
+                            <p>LinkedIn</p>
+                        </li>
+                        <li>
+                            <p>Youtube</p>
+                        </li>
+                </ul></div>
+                <div class="subscribe-class">
+                    <p>SUBSCRIBE TO OUR NEWSLETTER</p>
+                    <p>Get a free subscription to our health and fitness tip and stay tuned to our latest
+                        offers</p>
+                    <form action="">
+                        <input id="email" type="text" placeholder="Enter your Email">
+                        <button id="button" title="Go" type="submit">Go</button>
+                    </form>
+                    <a href="https://play.google.com/store/apps/details?id=com.NetmedsMarketplace.Netmeds;hl=en" target="blank">
+                        <img class="play-store" src="https://www.netmeds.com/assets/gloryweb/images/icons/play_store.png" alt="">
+                    </a>
+                    <a href="https://apps.apple.com/in/app/netmeds-india-ki-pharmacy/id1011070011" target="blank">
+                        <img class="play-store" src="https://www.netmeds.com/assets/gloryweb/images/icons/app_store.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <hr style="width: 95%;">
+            <div class="foot-bottom">
+                <p>Medicine</p>
+                <p>Wellness</p>
+                <p>Lab Test</p>
+                <p>Beauty</p>
+                <p>Copyright© 2022. All Rights Reserved.</p>
+            </div>
+
+        </div>
+
+        
+
+</body>
+</html>
+
+<script>
+    function myFunction() {
+
+  var copyText = document.getElementById("myInput");
+
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); 
+
+  navigator.clipboard.writeText(copyText.value);
+
+  alert("Copied the text: " + copyText.value);
+}
+</script>

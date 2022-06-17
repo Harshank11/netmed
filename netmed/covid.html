@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+         #Navbar{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    background-color: teal;
+ 
+}
+
+#Navbar>div {
+    /* background-color: teal; */
+    color: white;
+    display: flex;
+    margin: auto;
+    /* align-content: space-around; */
+}
+
+#Navbar>div:nth-child(2){
+    width: 40%;
+    background-color: white;
+    color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+border-radius: 10px;
+}
+
+input:last-child{
+    width: 75%;
+    border: none;
+}
+div>p{
+    width: 15%;
+}
+p+input{
+    border: none;
+    color: rgb(9, 166, 166);
+    width: 10%;
+}
+#Navbar>div>button{
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    background-color: teal;
+}
+
+#b{
+    background-color: teal;
+    height: 55px;
+}
+#nav>div{
+    cursor: pointer;
+   
+}
+
+#c{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: space-around;
+    display: flex;
+}
+
+#c>button{
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+    }
+
+    #d{
+        display: flex;
+        /* border: 2px solid red; */
+        height: 350px;
+        width: 100%;
+
+        margin-top: 50px;
+    }
+    #d>div:first-child{
+        width: 18%;
+        background-color: aliceblue;
+        text-align: left;
+        font-size: 25px;
+        padding: 10px;
+    }
+    #d>div:last-child{
+        width: 78%;
+    }
+    #d>div>div:first-child{
+        /* border:2px solid brown; */
+        width:100%;
+        height:40%;
+        background-color: #dff8ff;
+        font-size: 25px;
+        padding: 15px;
+    }
+    #d>div>div:last-child{
+        border: 2px solid;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(5 250px);
+        gap: 20px;
+        /* justify-content: center; */
+        /* margin: auto; */
+
+    }
+    #d>div>div:last-child>div{
+        border: 2px solid yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-weight: bold;
+        margin: auto;
+        height: 100%;
+        
+       
+    }
+
+
+</style>
+<body>
+    <div id="Navbar">
+        <div> 
+            <a href="homepage.html"><img id="hey" src="https://www.netmeds.com/assets/gloryweb/images/netmeds-footer-logo.svg" alt="sf">
+            </a>
+        </div>
+        <div>
+                <p>Deliver to</p>
+                <input type="number"  style="font-size: 15px;" placeholder="110002">
+                |
+                <input type="text" style="font-size: 15px;" placeholder="Search for Medicine & wellness">
+        </div>
+        <div>
+            <button>Upload</button>
+        </div>
+        <div>
+            <button>Cart</button>
+        </div>
+        <div>
+            <button>Harshank Patel </button>
+  
+        </div>
+        
+    </div>
+    <div id="b">
+            <div id="nav">
+                <div>
+                <img src="https://www.netmeds.com/assets/version1648145916/gloryweb/images/icons/medicine.svg" alt="">
+                </div>
+                <div>
+                    <img src="https://www.netmeds.com/assets/gloryweb/images/icons/wellness.svg" alt="">
+                </div>
+                <div>
+                    <img src="https://www.netmeds.com/assets/gloryweb/images/icons/diagnostics.svg" alt="">
+                </div>
+                <div>
+                    <img src="https://www.netmeds.com/assets/gloryweb/images/icons/beauty.svg" alt="">
+                </div>
+                <div>
+                    <img src="https://www.netmeds.com/assets/version1648145916/gloryweb/images/icons/health-library.svg" alt="">
+                </div>
+            </div>
+    </div>
+    <div id="c">
+        <button>COVID Essential</button>
+        <button>Diabetes</button>
+        <button>Eyewear</button>
+        <button>Ayush</button>
+        <button>Ayurvedic</button>
+        <button>Homeopathy</button>
+        <button>Fitness</button>
+        <button>Mom & Baby</button>
+        <button>Devices</button>
+        <button>Sexual Wellness</button>
+    </div>
+    <div id="d" >
+        <div>Category</div>
+        <div>
+            <div>Covid Essential</div>
+            <div>
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+               
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+               <div>
+                <div> 
+                    <img src="https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg" alt=""> 
+                </div>
+                <div>
+                    <p>Rivital Women</p>
+                </div>
+               </div>
+
+              
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
